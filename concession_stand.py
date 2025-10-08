@@ -10,7 +10,6 @@ def main():
         "lemonade" : 3.00
     }
     orders = []
-    prices = []
     print_menu(menu)
     order(menu, orders)
     final_print(menu, orders)
